@@ -25,7 +25,9 @@ CustomSkinLoader 已经在 14.5 版本支持CustomSkinAPI R2
 可使用 GZIP 与 重定向  
 
 尽可能响应 `If-Modified-Since`   
-尽可能返回正确有效的 `Content-Length` 头与 `Last-Modified` 头，其他 HTTP 头均为可选。
+尽可能返回正确有效的 `Content-Length` 头与 `Last-Modified` 头，其他 HTTP 头均为可选。  
+
+可响应`Cache-Control`头，以告知其缓存时间。    
 
 ### 根地址
 
